@@ -31,7 +31,7 @@ const MovieSearch: React.FC = () => {
         "headers": {
           "content-type": "application/octet-stream",
           "x-rapidapi-host": "imdb8.p.rapidapi.com",
-          "x-rapidapi-key": "4bd2e28445mshe1aa9f3783e369dp158a81jsn6f3dc6aa2808>",
+          "x-rapidapi-key": "4bd2e28445mshe1aa9f3783e369dp158a81jsn6f3dc6aa2808",
           "useQueryString": true
         },
         "params": {
