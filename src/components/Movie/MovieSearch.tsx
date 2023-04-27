@@ -25,23 +25,34 @@ const MovieSearch: React.FC = () => {
   const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      const response = await axios.get(
-        `https://api.themoviedb.org/3/search/movie?api_key=a5a0dd1c13c6d233edac01e3ca400aa7&query=${inputValue}${"any" != sortOption ? `&sort_by=${sortOption}` : ''}&language=en-US&include_adult=false&include_video=false&page=1&region=US`
-      );
+      const response = await axios({
+        "method": "GET",
+        "url": "https://imdb8.p.rapidapi.com/title/v2/find",
+        "headers": {
+          "content-type": "application/octet-stream",
+          "x-rapidapi-host": "imdb8.p.rapidapi.com",
+          "x-rapidapi-key": "4bd2e28445mshe1aa9f3783e369dp158a81jsn6f3dc6aa2808>",
+          "useQueryString": true
+        },
+        "params": {
+          "q": inputValue,
+          "s": sortOption
+        }
+      });
       const movieResults = response.data.results
         .filter(
           (movie: any) =>
-            movie.poster_path &&
+            movie.image &&
             movie.title &&
-            movie.release_date &&
-            movie.overview
+            movie.year &&
+            movie.plot
         )
         .slice(0, MaxMoviesSize)
         .map((movie: any) => ({
           title: movie.title,
-          overview: movie.overview,
-          release_date: movie.release_date,
-          poster_path: `https://image.tmdb.org/t/p/w500${movie.poster_path}`,
+          overview: movie.plot,
+          release_date: movie.year,
+          poster_path: movie.image.url,
         }));
       setMovies(movieResults);
     } catch (error) {
