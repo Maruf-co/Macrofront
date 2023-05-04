@@ -10,9 +10,9 @@ import {
   formStyle,
   selectBarStyle,
 } from './SearchBlock.styles';
-import Input from '../../Input';
-import SelectMenu from '../../SelectMenu/selectMenu';
-import { Option } from '../../SelectMenu/types';
+import Input from '../../common/Input';
+import SelectMenu from '../../common/SelectMenu/selectMenu';
+import { Option } from '../../common/SelectMenu/types';
 import AnimeCards from '../AnimeCards';
 
 const SearchBlock: React.FC = () => {

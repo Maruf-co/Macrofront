@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import UniversalHeader from '../components/UniversalHeader';
-import BooksCollection from './../components/BooksCollection';
-import HeadMeta from './../components/HeadMeta';
+import Navbar from '../components/common/Navbar';
+import Footer from '../components/common/Footer';
+import UniversalHeader from '../components/common/Header';
+import BooksCollection from '../components/Books/BooksCollection';
+import HeadMeta from '../components/common/HeadMeta';
 
 import image1 from './../public/anime_background.png';
 import image2 from './../public/films_background.png';
@@ -28,7 +28,7 @@ const HomePage = () => {
     <>
       <HeadMeta title="MacroFrontEnd" description="main page of Macrofrontend Team" />
       <Navbar />
-      <UniversalHeader
+      {/* <UniversalHeader
         height={600}
         background_img={image1}
         block1_width={445}
@@ -71,7 +71,7 @@ const HomePage = () => {
             img_alt="Image 1"
           />,
         ]}
-      />
+      /> */}
       <Footer />
     </>
   );

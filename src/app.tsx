@@ -9,10 +9,10 @@ import HomePage from './routes/home';
 const App = () => {
   return (
     <Routes>
-      <Route path="/MacroFrontend/" element={<HomePage />} />
-      <Route path="/MacroFrontend/anime" element={<AnimePage />} />
-      <Route path="/MacroFrontend/films" element={<FilmsPage />} />
-      <Route path="/MacroFrontend/books" element={<BooksPage />} />
+      <Route path="/macrofrontend/" element={<HomePage />} />
+      <Route path="/macrofrontend/anime" element={<AnimePage />} />
+      <Route path="/macrofrontend/films" element={<FilmsPage />} />
+      <Route path="/macrofrontend/books" element={<BooksPage />} />
     </Routes>
   );
 };

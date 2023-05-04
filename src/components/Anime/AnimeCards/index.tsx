@@ -3,8 +3,7 @@ import { gridStyle } from './AnimeCards.styles';
 
 import { AnimeCardsProps } from './types';
 
-import Card from '../../Card';
-import Button from '../../Button';
+import Card from '../../common/Card';
 
 const AnimeCards: React.FC<AnimeCardsProps> = ({ data }) => {
   const renderCards = data.map((item) => {

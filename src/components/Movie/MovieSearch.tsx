@@ -9,11 +9,11 @@ import {
   TextGenresStyled,
   TextSearchStyled,
 } from './Moive.styles';
-import Input from '../Input';
+import Input from '../common/Input';
 import Movies from './Movies';
 import { genresOptions } from './constant';
 import { MovieDataShort } from './types';
-import SelectSomeMenu from '../SelectMenu/SelectSomeMenu';
+import SelectSomeMenu from '../common/SelectMenu/SelectSomeMenu';
 
 const MaxMoviesSize: number = 9;
 

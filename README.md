@@ -1,4 +1,11 @@
-# Macrofront
+# MacroFrontEnd Searcher
+
+Web application for searching films, books, anime. \
+The application itself is a microfrontend. \
+
+Url: https://b2.inno-js.ru/macrofrontend \
+
+Frontend Stack: Typescript, React, Emotion
 
 ## To install dependencies
 
