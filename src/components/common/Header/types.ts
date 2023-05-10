@@ -7,6 +7,7 @@ interface HeaderProps {
     position: 'left' | 'right';
   };
   contentBlock?: React.ReactNode;
+  withoutButton?: boolean;
 }
 
 export default HeaderProps;

@@ -11,14 +11,14 @@ import { filmsTextBlock } from './constants';
 
 const FilmsPage = () => {
   return (
-    <>
+    <div css={{ backgroundColor: 'black' }}>
       <HeadMeta title="MacroFrontEnd films" description="Films page of Macrofrontend Team" />
       <Navbar />
       <Header background={image} textBlock={filmsTextBlock} />
       <TopMovies />
       <MovieSearch />
       <Footer />
-    </>
+    </div>
   );
 };
 

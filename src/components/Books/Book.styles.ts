@@ -2,27 +2,12 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 import '@fontsource/russo-one';
 
-export const ContainerStyled = styled.div`
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 50px;
-  background-color: #161616;
-  color: white;
-`;
-
 export const HeaderContainerStyled = styled.div`
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 50px;
   background-color: black;
   color: white;
-`;
-
-export const TextStyle = css`
-  font-family: 'Russo One', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
 `;
 
 export const TextStyleS = css`
@@ -44,27 +29,6 @@ export const BooksGridStyled = styled.div`
   padding-bottom: 20px;
 `;
 
-export const ModalStyles = {
-  overlay: {
-    backgroundColor: 'rgba(0, 0, 0, 0.75)',
-    zIndex: 9999,
-  },
-  content: {
-    backgroundColor: '#333',
-    border: 'none',
-    borderRadius: '10px',
-    padding: '20px',
-    color: 'white',
-    width: '50%',
-    height: '75%',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    boxShadow: '0px 0px 10px 0px rgba(0,0,0,0.75)',
-    zIndex: 10000,
-  },
-};
-
 export const unsetButton = css`
   all: unset;
   cursor: pointer;
@@ -81,18 +45,6 @@ export const CardStyle = css`
 export const ImgStyle = css`
   margin-right: 20px;
   max-height: 400px;
-`;
-
-export const ExitButtonStyle = css`
-  all: unset;
-  position: absolute;
-  top: 0;
-  right: 5px;
-`;
-
-export const SearchStyle = css`
-  display: flex;
-  align-items: center;
 `;
 
 export const ColumnStyle1 = css`

@@ -15,13 +15,14 @@ export const SelectStyled = styled.div`
 `;
 
 export const SelectSelectedStyled = styled.div`
-  padding-left: 15px;
-  background-color: white;
+  background-color: #fcfcfc;
   border-radius: 8px;
+
+  display: flex;
+  align-items: center;
   width: 85px;
   height: 30px;
-  align-items: center;
-  display: flex;
+  padding-left: 15px;
 `;
 
 export const SelectOptionTextStyled = styled.span`
@@ -29,15 +30,17 @@ export const SelectOptionTextStyled = styled.span`
 `;
 
 export const SelectMenuStyled = styled.div`
-  border: 1px solid black;
   position: absolute;
   z-index: 1;
-  margin-top: 10px;
+  overflow-y: auto;
+
+  background-color: #f7f7f7;
+  border: 1px solid black;
   border-radius: 8px;
-  background: white;
+
   width: 100px;
   max-height: 300px;
-  overflow-y: auto;
+  margin-top: 10px;
 `;
 
 export const SelectOptionStyled = styled.div<SelectOptionStyledProps>`
@@ -45,13 +48,13 @@ export const SelectOptionStyled = styled.div<SelectOptionStyledProps>`
   padding: 10px;
 
   &:hover {
-    background-color: lightgray;
+    background-color: #e6e6e6;
   }
 
   ${({ isSelected }) =>
     isSelected &&
     css`
-      background-color: gray;
+      background-color: #d9d9d9;
     `}
 `;
 

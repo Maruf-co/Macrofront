@@ -2,13 +2,21 @@ import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import '@fontsource/russo-one';
 
+export const TopFiller = styled.div`
+  width: 100%;
+  height: 75px;
+`;
+
 export const Container = styled.nav`
   position: fixed;
-  width: 100%;
+  top: 0;
+  left: 0;
   z-index: 10;
   background-color: #000000;
+
   display: flex;
   justify-content: center;
+  width: 100%;
   height: 75px;
 `;
 

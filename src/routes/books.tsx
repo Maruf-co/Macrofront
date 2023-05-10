@@ -5,7 +5,6 @@ import Navbar from '../components/common/Navbar';
 import Header from '../components/common/Header';
 import BooksSearch from '../components/Books/BooksSearch';
 import Footer from '../components/common/Footer';
-
 import BooksCollection from '../components/Books/BooksCollection';
 
 import { booksContent, booksTextBlock } from './constants';

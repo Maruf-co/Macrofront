@@ -1,14 +1,13 @@
-import styled from '@emotion/styled';
-import ButtonProps from './types';
+import { css } from '@emotion/react';
 import '@fontsource/russo-one';
 import '@fontsource/roboto';
 
-export const ButtonStyled = styled.button<Pick<ButtonProps, 'variant'>>`
+export const buttonStyled = (variant: string | undefined) => css`
+  all: unset;
   cursor: pointer;
 
-  ${(props) =>
-    props.variant === 'primary' &&
-    `
+  ${variant === 'primary' &&
+  `
       font-size: 16px;
       font-family: 'Roboto', sans-serif;
       font-weight: 600;
@@ -20,9 +19,8 @@ export const ButtonStyled = styled.button<Pick<ButtonProps, 'variant'>>`
       padding: 14px 53px;
       margin: 20px 0px;
     `};
-  ${(props) =>
-    props.variant === 'secondary' &&
-    `
+  ${variant === 'secondary' &&
+  `
       font-size: 16px;
       font-family: 'Roboto', sans-serif;
       font-weight: 600;
@@ -34,9 +32,8 @@ export const ButtonStyled = styled.button<Pick<ButtonProps, 'variant'>>`
       padding: 14px 53px;
       margin: 20px 0px;
     `}
-  ${(props) =>
-    props.variant === 'pure-cyan' &&
-    `
+  ${variant === 'pure-cyan' &&
+  `
       font-family: 'Russo One', sans-serif;
       font-size: 18px;
       color: #00cedb;

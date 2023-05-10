@@ -4,7 +4,7 @@ import { InputProps } from './types';
 
 export const InputWrapperStyled = styled.div<Pick<InputProps, 'inputbarType'>>`
   position: relative;
-  background: white;
+  background: #e6e6e6;
   font-family: Roboto, sans-serif;
   color: black;
   font-size: 16px;
@@ -44,6 +44,6 @@ export const SearchIconStyle: SerializedStyles = css`
 
 export const InputStyled = styled.input`
   all: unset;
-  padding-left: 40px;
-  width: calc(100% - 40px);
+  padding-left: 20px;
+  width: calc(100% - 20px);
 `;

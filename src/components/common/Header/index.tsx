@@ -15,8 +15,8 @@ const UniversalHeader: React.FC<HeaderProps> = ({
   height = 1080,
   background,
   contentBlock,
-
   textBlock,
+  withoutButton = false,
 }) => {
   const handleClick = () => {
     const searchForm = document.getElementById('search-form');
@@ -30,9 +30,11 @@ const UniversalHeader: React.FC<HeaderProps> = ({
           <div css={titleStyle}>{textBlock.title}</div>
           <div css={descriptionStyle}>{textBlock.description}</div>
 
-          <Button variant="primary" onClick={handleClick}>
-            Explore
-          </Button>
+          {withoutButton || (
+            <Button variant="primary" onClick={handleClick}>
+              Explore
+            </Button>
+          )}
         </div>
         <div css={gridColumnStyle}>{contentBlock}</div>
       </div>

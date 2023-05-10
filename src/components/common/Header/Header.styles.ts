@@ -4,19 +4,14 @@ import '@fontsource/russo-one';
 
 export const backgroundStyle = (height: number, background: string | undefined) => css`
   width: 100%;
+  max-width: 1920px;
   height: ${height}px;
   background-color: black;
   ${background && `background-image: url(${background});`}
   background-repeat: no-repeat;
-  background-position: center;
-`;
+  background-position: top;
 
-export const MainFlexContainer = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  height: inherit;
-  margin: 0px 215px;
+  margin: 0 auto;
 `;
 
 export const containerStyle = (isGrid: boolean) => css`
@@ -30,7 +25,10 @@ export const containerStyle = (isGrid: boolean) => css`
       margin: 0 auto;
     `
     : `
+      position: relative;
       display: flex;
+      width: 100%;
+      height: 100%;
 
 
   `}

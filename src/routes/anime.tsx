@@ -11,14 +11,14 @@ import { animeTextBlock } from './constants';
 
 const AnimePage = () => {
   return (
-    <>
+    <div css={{ backgroundColor: 'black' }}>
       <HeadMeta title="MacroFrontEnd anime" description="Anime page of Macrofrontend Team" />
       <Navbar />
       <Header background={image} textBlock={animeTextBlock} />
       <Banner />
       <SearchBlock />
       <Footer />
-    </>
+    </div>
   );
 };
 

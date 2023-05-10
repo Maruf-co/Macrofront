@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Modal from 'react-modal';
-import { BookLinkStyle, CardStyle, ExitButtonStyle, ImgStyle, ModalStyles } from './Book.styles';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
+
+import { BookLinkStyle, CardStyle, ImgStyle } from './Book.styles';
 import { BookInfo, BookProps, CustomType } from './types';
+
 import Link from '../common/Link';
 import Image from '../common/Image';
+import Modal from '../common/Modal';
 
 async function getBookData(bookKeys: string[]) {
   // That have low details
@@ -75,14 +75,8 @@ const Book: React.FC<BookProps> = ({ bookKeys, bookCoverId, isOpen, handleClose 
     fetchBookInfo().then((r) => r);
   }, [bookKeys]);
 
-  return (
-    <Modal
-      isOpen={isOpen}
-      onRequestClose={handleClose}
-      contentLabel={bookInfo.title}
-      ariaHideApp={false}
-      style={ModalStyles}
-    >
+  const modalBody = (
+    <>
       <h2>{bookInfo.title}</h2>
       <div css={CardStyle}>
         {bookInfo.coverUrl && (
@@ -109,9 +103,12 @@ const Book: React.FC<BookProps> = ({ bookKeys, bookCoverId, isOpen, handleClose 
           )}
         </div>
       </div>
-      <button onClick={handleClose} css={ExitButtonStyle}>
-        <FontAwesomeIcon icon={faTimes} size="2x" color="#ff0000" />
-      </button>
+    </>
+  );
+
+  return (
+    <Modal isOpen={isOpen} handleClose={handleClose} title={bookInfo.title}>
+      {modalBody}
     </Modal>
   );
 };
