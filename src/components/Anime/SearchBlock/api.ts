@@ -4,7 +4,7 @@ const getParam = (prop: QueryProps) => {
   return prop.val !== '' ? `${prop.param}=${prop.val}` : '';
 };
 
-export async function getAnimeList({ query, type, rating, status, order_by }: AnimeApiProps) {
+export function getAnimeList({ query, type, rating, status, order_by }: AnimeApiProps) {
   const url = 'https://api.jikan.moe/v4/anime';
   const limit = '20';
 

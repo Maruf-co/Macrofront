@@ -8,10 +8,10 @@ module.exports = {
     },
   },
   navigations: {
-    'MacroFrontend.main': '/MacroFrontend',
+    'macrofrontend.main': '/macrofrontend',
   },
   features: {
-    MacroFrontend: {
+    macrofrontend: {
       // add your features here in the format [featureName]: { value: string }
     },
   },

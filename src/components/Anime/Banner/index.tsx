@@ -1,6 +1,6 @@
 import { wrap, BannerStyled, titleStyle, titleWrap, imageStyle } from './Banner.styles';
 import image from './../../../public/anime_2.png';
-import Image from '../../Image';
+import Image from '../../common/Image';
 
 const Banner: React.FC = () => {
   const title = 'Explore the world of anime';

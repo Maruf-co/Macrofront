@@ -1,0 +1,2942 @@
+export const animeData = {
+  pagination: {
+    last_visible_page: 2,
+    has_next_page: true,
+    current_page: 1,
+    items: {
+      count: 20,
+      total: 32,
+      per_page: 20,
+    },
+  },
+  data: [
+    {
+      mal_id: 20,
+      url: 'https://myanimelist.net/anime/20/Naruto',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/13/17405.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/13/17405t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/13/17405l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/13/17405.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/13/17405t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/13/17405l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto',
+        },
+        {
+          type: 'Synonym',
+          title: 'NARUTO',
+        },
+        {
+          type: 'Japanese',
+          title: 'ナルト',
+        },
+        {
+          type: 'English',
+          title: 'Naruto',
+        },
+      ],
+      title: 'Naruto',
+      title_english: 'Naruto',
+      title_japanese: 'ナルト',
+      title_synonyms: ['NARUTO'],
+      type: 'TV',
+      source: 'Manga',
+      episodes: 220,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2002-10-03T00:00:00+00:00',
+        to: '2007-02-08T00:00:00+00:00',
+        prop: {
+          from: {
+            day: 3,
+            month: 10,
+            year: 2002,
+          },
+          to: {
+            day: 8,
+            month: 2,
+            year: 2007,
+          },
+        },
+        string: 'Oct 3, 2002 to Feb 8, 2007',
+      },
+      duration: '23 min per ep',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.98,
+      scored_by: 1872020,
+      rank: 607,
+      popularity: 8,
+      members: 2699968,
+      favorites: 75828,
+      synopsis:
+        "Moments prior to Naruto Uzumaki's birth, a huge demon known as the Kyuubi, the Nine-Tailed Fox, attacked Konohagakure, the Hidden Leaf Village, and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the Fourth Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto.\n\nNow, Naruto is a hyperactive and knuckle-headed ninja still living in Konohagakure. Shunned because of the Kyuubi inside him, Naruto struggles to find his place in the village, while his burning desire to become the Hokage of Konohagakure leads him not only to some great new friends, but also some deadly foes.\n\n[Written by MAL Rewrite]",
+      background:
+        'Naruto received numerous awards during its airing, including the "Best Full-Length Animation Program Award" in the Third UStv Awards and the 38th "Best Animated Show" in IGN\'s Top 100 Animated Series.',
+      season: 'fall',
+      year: 2002,
+      broadcast: {
+        day: 'Thursdays',
+        time: '19:30',
+        timezone: 'Asia/Tokyo',
+        string: 'Thursdays at 19:30 (JST)',
+      },
+      producers: [
+        {
+          mal_id: 16,
+          type: 'anime',
+          name: 'TV Tokyo',
+          url: 'https://myanimelist.net/anime/producer/16/TV_Tokyo',
+        },
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Aniplex',
+          url: 'https://myanimelist.net/anime/producer/17/Aniplex',
+        },
+        {
+          mal_id: 1365,
+          type: 'anime',
+          name: 'Shueisha',
+          url: 'https://myanimelist.net/anime/producer/1365/Shueisha',
+        },
+      ],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 32365,
+      url: 'https://myanimelist.net/anime/32365/Boruto__Naruto_the_Movie_-_Naruto_ga_Hokage_ni_Natta_Hi',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/6/77678.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/6/77678t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/6/77678l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/6/77678.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/6/77678t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/6/77678l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Boruto: Naruto the Movie - Naruto ga Hokage ni Natta Hi',
+        },
+        {
+          type: 'Synonym',
+          title: 'The Day Naruto Became Hokage',
+        },
+        {
+          type: 'Japanese',
+          title: 'BORUTO -NARUTO THE MOVIE- ナルトが火影になった日',
+        },
+        {
+          type: 'English',
+          title: 'Boruto: Naruto the Movie - The Day Naruto Became Hokage',
+        },
+        {
+          type: 'French',
+          title: 'Boruto: Naruto Le Film - Le Jour où Naruto est Devenu Hokage',
+        },
+      ],
+      title: 'Boruto: Naruto the Movie - Naruto ga Hokage ni Natta Hi',
+      title_english: 'Boruto: Naruto the Movie - The Day Naruto Became Hokage',
+      title_japanese: 'BORUTO -NARUTO THE MOVIE- ナルトが火影になった日',
+      title_synonyms: ['The Day Naruto Became Hokage'],
+      type: 'Special',
+      source: 'Original',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2016-07-06T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 6,
+            month: 7,
+            year: 2016,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Jul 6, 2016',
+      },
+      duration: '10 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.34,
+      scored_by: 60849,
+      rank: 2308,
+      popularity: 1832,
+      members: 108240,
+      favorites: 148,
+      synopsis: 'Bundled with the limited edition of Blu-ray/DVD of Boruto: Naruto the Movie.',
+      background: null,
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 10686,
+      url: 'https://myanimelist.net/anime/10686/Naruto__Honoo_no_Chuunin_Shiken_Naruto_vs_Konohamaru',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/9/30813.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/9/30813t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/9/30813l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/9/30813.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/9/30813t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/9/30813l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto: Honoo no Chuunin Shiken! Naruto vs. Konohamaru!!',
+        },
+        {
+          type: 'Japanese',
+          title: '炎の中忍試験! ナルトvs木ノ葉丸!!',
+        },
+        {
+          type: 'English',
+          title: 'Naruto Shippuden: Chunin Exam on Fire! and Naruto vs. Konohamaru!',
+        },
+      ],
+      title: 'Naruto: Honoo no Chuunin Shiken! Naruto vs. Konohamaru!!',
+      title_english: 'Naruto Shippuden: Chunin Exam on Fire! and Naruto vs. Konohamaru!',
+      title_japanese: '炎の中忍試験! ナルトvs木ノ葉丸!!',
+      title_synonyms: [],
+      type: 'Movie',
+      source: 'Manga',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2011-07-30T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 30,
+            month: 7,
+            year: 2011,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Jul 30, 2011',
+      },
+      duration: '14 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.17,
+      scored_by: 39911,
+      rank: 3175,
+      popularity: 2279,
+      members: 76109,
+      favorites: 36,
+      synopsis:
+        'As the Fourth Great Ninja War quickly approaches, Sunagakure hosts a special Chunin exam to strengthen the troops of the Allied Shinobi Forces. Among the participants are Konohamaru Sarutobi, an ambitious rookie, and Naruto Uzumaki, who has become a renowned ninja. Despite the significant disparity in skill, Konohamaru is excited at the prospect of proving himself in a competition against Naruto—the one person he both admires and sees as his rival.\n\n[Written by MAL Rewrite]',
+      background:
+        'Naruto: Honoo no Chuunin Shiken! Naruto vs. Konohamaru!! was aired together with Naruto: Shippuuden Movie 5 - Blood Prison, both presenting stories which fall closely before the series\' "Fourth Shinobi World War: Confrontation" arc. In addition, their release date was only one month prior to the aforementioned arc\'s premiere date, January 5, 2012.',
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [
+        {
+          mal_id: 1365,
+          type: 'anime',
+          name: 'Shueisha',
+          url: 'https://myanimelist.net/anime/producer/1365/Shueisha',
+        },
+      ],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+        {
+          mal_id: 31,
+          type: 'anime',
+          name: 'Super Power',
+          url: 'https://myanimelist.net/anime/genre/31/Super_Power',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 10659,
+      url: 'https://myanimelist.net/anime/10659/Naruto_Soyokazeden_Movie__Naruto_to_Mashin_to_Mitsu_no_Onegai_Dattebayo',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/10/31573.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/10/31573t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/10/31573l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/10/31573.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/10/31573t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/10/31573l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto Soyokazeden Movie: Naruto to Mashin to Mitsu no Onegai Dattebayo!!',
+        },
+        {
+          type: 'Synonym',
+          title: 'Gekijouban Naruto Soyokazeden: Naruto to Mashin to Mitsu no Onegai Dattebayo!!',
+        },
+        {
+          type: 'Synonym',
+          title: 'Naruto: Gentle Breeze Chronicles the Film: Naruto',
+        },
+        {
+          type: 'Synonym',
+          title: 'the Genie',
+        },
+        {
+          type: 'Synonym',
+          title: 'and the Three Wishes Dattebayo!!',
+        },
+        {
+          type: 'Japanese',
+          title: '劇場版NARUTO －ナルト－ そよ風伝 ナルトと魔神と3つのお願いだってばよ！！',
+        },
+        {
+          type: 'English',
+          title: 'Naruto: The Magic Genie and the Three Wishes',
+        },
+      ],
+      title: 'Naruto Soyokazeden Movie: Naruto to Mashin to Mitsu no Onegai Dattebayo!!',
+      title_english: 'Naruto: The Magic Genie and the Three Wishes',
+      title_japanese: '劇場版NARUTO －ナルト－ そよ風伝 ナルトと魔神と3つのお願いだってばよ！！',
+      title_synonyms: [
+        'Gekijouban Naruto Soyokazeden: Naruto to Mashin to Mitsu no Onegai Dattebayo!!',
+        'Naruto: Gentle Breeze Chronicles the Film: Naruto',
+        'the Genie',
+        'and the Three Wishes Dattebayo!!',
+      ],
+      type: 'Movie',
+      source: 'Original',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2010-07-31T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 31,
+            month: 7,
+            year: 2010,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Jul 31, 2010',
+      },
+      duration: '14 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 6.95,
+      scored_by: 25200,
+      rank: 4182,
+      popularity: 2822,
+      members: 52217,
+      favorites: 36,
+      synopsis:
+        'While enjoying a barbecue alongside team members and peers, Naruto Uzumaki stumbles upon a strange old bottle that houses a genie! The mythical being is willing to grant three wishes, but in a flurry of excitement, Naruto ends up wasting the first two. Outraged, Sasuke Uchiha and Sakura Haruno start fighting with him over the last remaining chance.\n\nAs the other ninjas join the dispute, the whole matter—before they know it—turns into an all-out brawl for the precious container.\n\n[Written by MAL Rewrite]',
+      background:
+        'Although Naruto Soyokazeden Movie: Naruto to Mashin to Mitsu no Onegai Dattebayo!! was screened together with Naruto: Shippuuden Movie 4 - The Lost Tower and shares a common animanga version with the film, the OVA falls within the first series\' timeline somewhere between "Chunin Exams" and "Sasuke Recovery Mission" arcs, or from episodes 68 to 107 respectively, unlike the movie.',
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 4,
+          type: 'anime',
+          name: 'Comedy',
+          url: 'https://myanimelist.net/anime/genre/4/Comedy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+        {
+          mal_id: 31,
+          type: 'anime',
+          name: 'Super Power',
+          url: 'https://myanimelist.net/anime/genre/31/Super_Power',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 54686,
+      url: 'https://myanimelist.net/anime/54686/Naruto_2023',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+          small_image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+          large_image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+          small_image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+          large_image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: false,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto (2023)',
+        },
+        {
+          type: 'Japanese',
+          title: 'NARUTO (2023)',
+        },
+      ],
+      title: 'Naruto (2023)',
+      title_english: null,
+      title_japanese: 'NARUTO (2023)',
+      title_synonyms: [],
+      type: 'TV',
+      source: 'Manga',
+      episodes: 4,
+      status: 'Not yet aired',
+      airing: false,
+      aired: {
+        from: '2023-09-01T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 1,
+            month: 9,
+            year: 2023,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Sep 2023 to ?',
+      },
+      duration: '24 min per ep',
+      rating: 'PG-13 - Teens 13 or older',
+      score: null,
+      scored_by: null,
+      rank: 0,
+      popularity: 0,
+      members: 0,
+      favorites: 0,
+      synopsis: 'Four new episodes for the 20th anniversary.',
+      background: null,
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: 'Unknown',
+      },
+      producers: [],
+      licensors: [],
+      studios: [],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 53236,
+      url: 'https://myanimelist.net/anime/53236/Road_of_Naruto',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1731/128787.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1731/128787t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1731/128787l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1731/128787.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1731/128787t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1731/128787l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Road of Naruto',
+        },
+        {
+          type: 'Synonym',
+          title: 'Naruto 20th Anniversary PV',
+        },
+        {
+          type: 'Japanese',
+          title: 'ROAD OF NARUTO',
+        },
+        {
+          type: 'English',
+          title: 'Road of Naruto',
+        },
+      ],
+      title: 'Road of Naruto',
+      title_english: 'Road of Naruto',
+      title_japanese: 'ROAD OF NARUTO',
+      title_synonyms: ['Naruto 20th Anniversary PV'],
+      type: 'ONA',
+      source: 'Manga',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2022-10-03T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 3,
+            month: 10,
+            year: 2022,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Oct 3, 2022',
+      },
+      duration: '9 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 8.5,
+      scored_by: 15593,
+      rank: 125,
+      popularity: 4114,
+      members: 25217,
+      favorites: 104,
+      synopsis:
+        'In celebration of 20 years of Naruto, Studio Pierrot posted an anniversary PV on their YouTube channel. The PV is a compilation of newly reworked scenes from Naruto containing new animation.',
+      background: null,
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [],
+      licensors: [],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 1735,
+      url: 'https://myanimelist.net/anime/1735/Naruto__Shippuuden',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1565/111305.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1565/111305t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1565/111305l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1565/111305.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1565/111305t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1565/111305l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: '1dy2zPPrKD0',
+        url: 'https://www.youtube.com/watch?v=1dy2zPPrKD0',
+        embed_url:
+          'https://www.youtube.com/embed/1dy2zPPrKD0?enablejsapi=1&wmode=opaque&autoplay=1',
+        images: {
+          image_url: 'https://img.youtube.com/vi/1dy2zPPrKD0/default.jpg',
+          small_image_url: 'https://img.youtube.com/vi/1dy2zPPrKD0/sddefault.jpg',
+          medium_image_url: 'https://img.youtube.com/vi/1dy2zPPrKD0/mqdefault.jpg',
+          large_image_url: 'https://img.youtube.com/vi/1dy2zPPrKD0/hqdefault.jpg',
+          maximum_image_url: 'https://img.youtube.com/vi/1dy2zPPrKD0/maxresdefault.jpg',
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto: Shippuuden',
+        },
+        {
+          type: 'Synonym',
+          title: 'Naruto Hurricane Chronicles',
+        },
+        {
+          type: 'Japanese',
+          title: '-ナルト- 疾風伝',
+        },
+        {
+          type: 'English',
+          title: 'Naruto Shippuden',
+        },
+        {
+          type: 'German',
+          title: 'Naruto Shippuden',
+        },
+        {
+          type: 'Spanish',
+          title: 'Naruto Shippuden',
+        },
+        {
+          type: 'French',
+          title: 'Naruto Shippuden',
+        },
+      ],
+      title: 'Naruto: Shippuuden',
+      title_english: 'Naruto Shippuden',
+      title_japanese: '-ナルト- 疾風伝',
+      title_synonyms: ['Naruto Hurricane Chronicles'],
+      type: 'TV',
+      source: 'Manga',
+      episodes: 500,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2007-02-15T00:00:00+00:00',
+        to: '2017-03-23T00:00:00+00:00',
+        prop: {
+          from: {
+            day: 15,
+            month: 2,
+            year: 2007,
+          },
+          to: {
+            day: 23,
+            month: 3,
+            year: 2017,
+          },
+        },
+        string: 'Feb 15, 2007 to Mar 23, 2017',
+      },
+      duration: '23 min per ep',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 8.26,
+      scored_by: 1557968,
+      rank: 282,
+      popularity: 15,
+      members: 2332204,
+      favorites: 106948,
+      synopsis:
+        'It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world.\n \nAlthough Naruto is older and sinister events loom on the horizon, he has changed little in personality—still rambunctious and childish—though he is now far more confident and possesses an even greater determination to protect his friends and home. Come whatever may, Naruto will carry on with the fight for what is important to him, even at the expense of his own body, in the continuation of the saga about the boy who wishes to become Hokage.\n\n[Written by MAL Rewrite]',
+      background: null,
+      season: 'winter',
+      year: 2007,
+      broadcast: {
+        day: 'Thursdays',
+        time: '19:30',
+        timezone: 'Asia/Tokyo',
+        string: 'Thursdays at 19:30 (JST)',
+      },
+      producers: [
+        {
+          mal_id: 16,
+          type: 'anime',
+          name: 'TV Tokyo',
+          url: 'https://myanimelist.net/anime/producer/16/TV_Tokyo',
+        },
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Aniplex',
+          url: 'https://myanimelist.net/anime/producer/17/Aniplex',
+        },
+        {
+          mal_id: 50,
+          type: 'anime',
+          name: 'KSS',
+          url: 'https://myanimelist.net/anime/producer/50/KSS',
+        },
+        {
+          mal_id: 211,
+          type: 'anime',
+          name: 'Rakuonsha',
+          url: 'https://myanimelist.net/anime/producer/211/Rakuonsha',
+        },
+        {
+          mal_id: 717,
+          type: 'anime',
+          name: 'TV Tokyo Music',
+          url: 'https://myanimelist.net/anime/producer/717/TV_Tokyo_Music',
+        },
+        {
+          mal_id: 1365,
+          type: 'anime',
+          name: 'Shueisha',
+          url: 'https://myanimelist.net/anime/producer/1365/Shueisha',
+        },
+      ],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 10075,
+      url: 'https://myanimelist.net/anime/10075/Naruto_x_UT',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/3/30485.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/3/30485t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/3/30485l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/3/30485.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/3/30485t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/3/30485l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto x UT',
+        },
+        {
+          type: 'Japanese',
+          title: 'NARUTO×UT',
+        },
+      ],
+      title: 'Naruto x UT',
+      title_english: null,
+      title_japanese: 'NARUTO×UT',
+      title_synonyms: [],
+      type: 'OVA',
+      source: 'Manga',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2011-01-01T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 1,
+            month: 1,
+            year: 2011,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Jan 1, 2011',
+      },
+      duration: '6 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.37,
+      scored_by: 24926,
+      rank: 2186,
+      popularity: 2865,
+      members: 50940,
+      favorites: 84,
+      synopsis:
+        "All-new animation offered throughout UNIQLO clothing stores in Japan on January 1, 2011. The DVD contains an exclusive version of Mayonaka Orchestra, by the Japanese rock band Aqua Timez. A limited number of the DVDs was offered as presents to people who bought UNIQLO's Naruto graphic T-shirts online or in their stores.\n\n(Source: ANN, edited)",
+      background: null,
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [],
+      licensors: [],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 54691,
+      url: 'https://myanimelist.net/anime/54691/NARUTO_Shinsaku_Anime',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+          small_image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+          large_image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+          small_image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+          large_image_url: 'https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: false,
+      titles: [
+        {
+          type: 'Default',
+          title: 'NARUTO (Shinsaku Anime)',
+        },
+        {
+          type: 'Synonym',
+          title: 'NARUTO (Shinsaku Anime)',
+        },
+        {
+          type: 'Japanese',
+          title: 'NARUTO (Shinsaku Anime)',
+        },
+        {
+          type: 'English',
+          title: 'NARUTO (Shinsaku Anime)',
+        },
+      ],
+      title: 'NARUTO (Shinsaku Anime)',
+      title_english: 'NARUTO (Shinsaku Anime)',
+      title_japanese: 'NARUTO (Shinsaku Anime)',
+      title_synonyms: ['NARUTO (Shinsaku Anime)'],
+      type: null,
+      source: 'Unknown',
+      episodes: 4,
+      status: 'Not yet aired',
+      airing: false,
+      aired: {
+        from: '2023-01-01T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 1,
+            month: 1,
+            year: 2023,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: '2023',
+      },
+      duration: 'Unknown',
+      rating: null,
+      score: null,
+      scored_by: null,
+      rank: 0,
+      popularity: 0,
+      members: 0,
+      favorites: 0,
+      synopsis:
+        'The official website for the NARUTO anime franchise announced a new anime project: to air four "brand-new" episodes starting in September 2023 to celebrate the TV anime\'s 20th anniversary back in 2022.\n\n(Source: Anime News Network, edited)\n\nNote: Title, format, and relations are provisional and will be updated when more info is announced.',
+      background: null,
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [],
+      licensors: [],
+      studios: [],
+      genres: [],
+      explicit_genres: [],
+      themes: [],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 28755,
+      url: 'https://myanimelist.net/anime/28755/Boruto__Naruto_the_Movie',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/4/78280.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/4/78280t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/4/78280l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/4/78280.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/4/78280t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/4/78280l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: 'ld-oqpvOBAk',
+        url: 'https://www.youtube.com/watch?v=ld-oqpvOBAk',
+        embed_url:
+          'https://www.youtube.com/embed/ld-oqpvOBAk?enablejsapi=1&wmode=opaque&autoplay=1',
+        images: {
+          image_url: 'https://img.youtube.com/vi/ld-oqpvOBAk/default.jpg',
+          small_image_url: 'https://img.youtube.com/vi/ld-oqpvOBAk/sddefault.jpg',
+          medium_image_url: 'https://img.youtube.com/vi/ld-oqpvOBAk/mqdefault.jpg',
+          large_image_url: 'https://img.youtube.com/vi/ld-oqpvOBAk/hqdefault.jpg',
+          maximum_image_url: 'https://img.youtube.com/vi/ld-oqpvOBAk/maxresdefault.jpg',
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Boruto: Naruto the Movie',
+        },
+        {
+          type: 'Synonym',
+          title: 'Gekijouban Naruto (2015)',
+        },
+        {
+          type: 'Japanese',
+          title: 'BORUTO -NARUTO THE MOVIE-',
+        },
+        {
+          type: 'English',
+          title: 'Boruto: Naruto the Movie',
+        },
+        {
+          type: 'German',
+          title: 'Boruto: Naruto The Movie',
+        },
+        {
+          type: 'Spanish',
+          title: 'Boruto: Naruto La Película',
+        },
+        {
+          type: 'French',
+          title: 'Boruto: Naruto Le Film',
+        },
+      ],
+      title: 'Boruto: Naruto the Movie',
+      title_english: 'Boruto: Naruto the Movie',
+      title_japanese: 'BORUTO -NARUTO THE MOVIE-',
+      title_synonyms: ['Gekijouban Naruto (2015)'],
+      type: 'Movie',
+      source: 'Manga',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2015-08-07T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 7,
+            month: 8,
+            year: 2015,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Aug 7, 2015',
+      },
+      duration: '1 hr 35 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.4,
+      scored_by: 287690,
+      rank: 2063,
+      popularity: 461,
+      members: 445176,
+      favorites: 915,
+      synopsis:
+        "The spirited Boruto Uzumaki, son of Seventh Hokage Naruto, is a skilled ninja who possesses the same brashness and passion his father once had. However, the constant absence of his father, who is busy with his Hokage duties, puts a damper on Boruto's fire. Upon learning that his father will watch the aspiring ninjas who will participate in the upcoming Chunin exams, Boruto is driven to prove to him that he is worthy of his attention. In order to do so, he enlists the help of Naruto's childhood friend and rival, Sasuke Uchiha. \n\nThe Chunin exams begin and progress smoothly, until suddenly, the Konohagakure is attacked by a new foe that threatens the long-standing peace of the village. Now facing real danger, Naruto and his comrades must work together to protect the future of their cherished home and defeat the evil that terrorizes their world. As this battle ensues, Boruto comes to realize the struggles his father once experienced—and what it truly means to be a ninja.\n\n[Written by MAL Rewrite]",
+      background:
+        "Boruto: Naruto the Movie is officially the highest grossing feature film in the entire Naruto franchise, and was number 11 on Japan's Top Grossing Domestic Movies of 2015. This is the first time that original creator Masashi Kishimoto has written the entire screenplay for a Naruto movie.",
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [
+        {
+          mal_id: 245,
+          type: 'anime',
+          name: 'Toho',
+          url: 'https://myanimelist.net/anime/producer/245/Toho',
+        },
+        {
+          mal_id: 1365,
+          type: 'anime',
+          name: 'Shueisha',
+          url: 'https://myanimelist.net/anime/producer/1365/Shueisha',
+        },
+      ],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 16870,
+      url: 'https://myanimelist.net/anime/16870/The_Last__Naruto_the_Movie',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1491/134498.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1491/134498t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1491/134498l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1491/134498.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1491/134498t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1491/134498l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: 'tA3yE4_t6SY',
+        url: 'https://www.youtube.com/watch?v=tA3yE4_t6SY',
+        embed_url:
+          'https://www.youtube.com/embed/tA3yE4_t6SY?enablejsapi=1&wmode=opaque&autoplay=1',
+        images: {
+          image_url: 'https://img.youtube.com/vi/tA3yE4_t6SY/default.jpg',
+          small_image_url: 'https://img.youtube.com/vi/tA3yE4_t6SY/sddefault.jpg',
+          medium_image_url: 'https://img.youtube.com/vi/tA3yE4_t6SY/mqdefault.jpg',
+          large_image_url: 'https://img.youtube.com/vi/tA3yE4_t6SY/hqdefault.jpg',
+          maximum_image_url: 'https://img.youtube.com/vi/tA3yE4_t6SY/maxresdefault.jpg',
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'The Last: Naruto the Movie',
+        },
+        {
+          type: 'Synonym',
+          title:
+            'Naruto Movie 10: Naruto the Movie: The Last,Naruto: Shippuuden Movie 7 - The Last',
+        },
+        {
+          type: 'Japanese',
+          title: 'THE LAST NARUTO THE MOVIE',
+        },
+        {
+          type: 'English',
+          title: 'Naruto Shippuden the Movie 7: The Last',
+        },
+        {
+          type: 'German',
+          title: 'Naruto Film 7: The Last',
+        },
+        {
+          type: 'Spanish',
+          title: 'Naruto Película 7: The Last',
+        },
+        {
+          type: 'French',
+          title: 'Naruto Film 7: The Last',
+        },
+      ],
+      title: 'The Last: Naruto the Movie',
+      title_english: 'Naruto Shippuden the Movie 7: The Last',
+      title_japanese: 'THE LAST NARUTO THE MOVIE',
+      title_synonyms: [
+        'Naruto Movie 10: Naruto the Movie: The Last,Naruto: Shippuuden Movie 7 - The Last',
+      ],
+      type: 'Movie',
+      source: 'Manga',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2014-12-06T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 6,
+            month: 12,
+            year: 2014,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Dec 6, 2014',
+      },
+      duration: '1 hr 52 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.79,
+      scored_by: 382136,
+      rank: 943,
+      popularity: 346,
+      members: 572330,
+      favorites: 2094,
+      synopsis:
+        "Two years have passed since the end of the Fourth Great Ninja War. Konohagakure has remained in a state of peace and harmony—until Sixth Hokage Kakashi Hatake notices the moon is dangerously approaching the Earth, posing the threat of planetary ruin.\n\nAmidst the grave ordeal, the Konoha is invaded by a new evil, Toneri Oosutuski, who suddenly abducts Hinata Hyuuga's little sister Hanabi. Kakashi dispatches a skilled ninja team comprised of Naruto Uzumaki, Sakura Haruno, Shikamaru Nara, Sai, and Hinata in an effort to rescue Hanabi from the diabolical clutches of Toneri. However, during their mission, the team faces several obstacles that challenge them, foiling their efforts.\n\nWith her abduction, the relationships the team share with one another are tested, and with the world reaching the brink of destruction, they must race against time to ensure the safety of their planet. Meanwhile, as the battle ensues, Naruto is driven to fight for something greater than he has ever imagined—love.\n\n[Written by MAL Rewrite]",
+      background:
+        'The events in the film The Last: Naruto the Movie take place chronologically between chapters 699 and 700 of the original manga. It is the tenth animated film in the Naruto series, and was made to commemorate the manga’s 15th anniversary.',
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [
+        {
+          mal_id: 16,
+          type: 'anime',
+          name: 'TV Tokyo',
+          url: 'https://myanimelist.net/anime/producer/16/TV_Tokyo',
+        },
+        {
+          mal_id: 1365,
+          type: 'anime',
+          name: 'Shueisha',
+          url: 'https://myanimelist.net/anime/producer/1365/Shueisha',
+        },
+      ],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+        {
+          mal_id: 22,
+          type: 'anime',
+          name: 'Romance',
+          url: 'https://myanimelist.net/anime/genre/22/Romance',
+        },
+      ],
+      explicit_genres: [],
+      themes: [],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 34566,
+      url: 'https://myanimelist.net/anime/34566/Boruto__Naruto_Next_Generations',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1091/99847.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1091/99847t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1091/99847l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1091/99847.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1091/99847t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1091/99847l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Boruto: Naruto Next Generations',
+        },
+        {
+          type: 'Japanese',
+          title: 'BORUTO -NARUTO NEXT GENERATIONS-',
+        },
+        {
+          type: 'English',
+          title: 'Boruto: Naruto Next Generations',
+        },
+      ],
+      title: 'Boruto: Naruto Next Generations',
+      title_english: 'Boruto: Naruto Next Generations',
+      title_japanese: 'BORUTO -NARUTO NEXT GENERATIONS-',
+      title_synonyms: [],
+      type: 'TV',
+      source: 'Manga',
+      episodes: 293,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2017-04-05T00:00:00+00:00',
+        to: '2023-03-26T00:00:00+00:00',
+        prop: {
+          from: {
+            day: 5,
+            month: 4,
+            year: 2017,
+          },
+          to: {
+            day: 26,
+            month: 3,
+            year: 2023,
+          },
+        },
+        string: 'Apr 5, 2017 to Mar 26, 2023',
+      },
+      duration: '23 min per ep',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 6.07,
+      scored_by: 413112,
+      rank: 8491,
+      popularity: 192,
+      members: 823253,
+      favorites: 7039,
+      synopsis:
+        "Following the successful end of the Fourth Shinobi World War, Konohagakure has been enjoying a period of peace, prosperity, and extraordinary technological advancement. This is all due to the efforts of the Allied Shinobi Forces and the village's Seventh Hokage, Naruto Uzumaki. Now resembling a modern metropolis, Konohagakure has changed, particularly the life of a shinobi. Under the watchful eye of Naruto and his old comrades, a new generation of shinobi has stepped up to learn the ways of the ninja.\n\nBoruto Uzumaki is often the center of attention as the son of the Seventh Hokage. Despite having inherited Naruto's boisterous and stubborn demeanor, Boruto is considered a prodigy and is able to unleash his potential with the help of supportive friends and family. Unfortunately, this has only worsened his arrogance and his desire to surpass Naruto which, along with his father's busy lifestyle, has strained their relationship. However, a sinister force brewing within the village may threaten Boruto's carefree life.\n\nNew friends and familiar faces join Boruto as a new story begins.\n\n[Written by MAL Rewrite]",
+      background: null,
+      season: 'spring',
+      year: 2017,
+      broadcast: {
+        day: 'Sundays',
+        time: '17:30',
+        timezone: 'Asia/Tokyo',
+        string: 'Sundays at 17:30 (JST)',
+      },
+      producers: [
+        {
+          mal_id: 16,
+          type: 'anime',
+          name: 'TV Tokyo',
+          url: 'https://myanimelist.net/anime/producer/16/TV_Tokyo',
+        },
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Aniplex',
+          url: 'https://myanimelist.net/anime/producer/17/Aniplex',
+        },
+        {
+          mal_id: 211,
+          type: 'anime',
+          name: 'Rakuonsha',
+          url: 'https://myanimelist.net/anime/producer/211/Rakuonsha',
+        },
+        {
+          mal_id: 1365,
+          type: 'anime',
+          name: 'Shueisha',
+          url: 'https://myanimelist.net/anime/producer/1365/Shueisha',
+        },
+      ],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 54688,
+      url: 'https://myanimelist.net/anime/54688/Naruto_Shinsaku_Anime',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1568/134069.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1568/134069t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1568/134069l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1568/134069.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1568/134069t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1568/134069l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto (Shinsaku Anime)',
+        },
+        {
+          type: 'Japanese',
+          title: 'ナルト新作アニメ',
+        },
+      ],
+      title: 'Naruto (Shinsaku Anime)',
+      title_english: null,
+      title_japanese: 'ナルト新作アニメ',
+      title_synonyms: [],
+      type: 'TV',
+      source: 'Manga',
+      episodes: 4,
+      status: 'Not yet aired',
+      airing: false,
+      aired: {
+        from: '2023-09-01T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 1,
+            month: 9,
+            year: 2023,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Sep 2023 to ?',
+      },
+      duration: 'Unknown',
+      rating: 'PG-13 - Teens 13 or older',
+      score: null,
+      scored_by: null,
+      rank: null,
+      popularity: 7544,
+      members: 5703,
+      favorites: 21,
+      synopsis: "A new anime project in celebration of Naruto's 20th anniversary.",
+      background: null,
+      season: 'fall',
+      year: 2023,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: 'Unknown',
+      },
+      producers: [],
+      licensors: [],
+      studios: [],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 7367,
+      url: 'https://myanimelist.net/anime/7367/Naruto__The_Cross_Roads',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/11/27050.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/11/27050t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/11/27050l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/11/27050.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/11/27050t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/11/27050l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto: The Cross Roads',
+        },
+        {
+          type: 'Synonym',
+          title: "Naruto's 10th Anniversary",
+        },
+        {
+          type: 'Japanese',
+          title: 'ナルト サ・クロスローズ',
+        },
+      ],
+      title: 'Naruto: The Cross Roads',
+      title_english: null,
+      title_japanese: 'ナルト サ・クロスローズ',
+      title_synonyms: ["Naruto's 10th Anniversary"],
+      type: 'Special',
+      source: 'Original',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2009-10-12T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 12,
+            month: 10,
+            year: 2009,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Oct 12, 2009',
+      },
+      duration: '27 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 6.79,
+      scored_by: 23646,
+      rank: 4888,
+      popularity: 2853,
+      members: 51347,
+      favorites: 34,
+      synopsis:
+        "The operation to find a missing person goes awry when Kakashi Hatake falls victim to a suspicious trap and gets separated from his students Naruto Uzumaki, Sasuke Uchiha, and Sakura Haruno. To make matters worse, the trio is ambushed by mysterious ninjas who capture Sakura, prompting Naruto and Sasuke to give chase.\n\nAs the two boys engage in a dangerous battle, not even Sasuke's troubling discovery about the mission can deter them from their endeavor to reunite the team and accomplish their task.\n\n[Written by MAL Rewrite]",
+      background:
+        'Celebrating the 10th anniversary of the Naruto manga serialization, the spin-off premiered at the 2009 Jump Festa Anime Tour. It used the same CGI graphics as featured in the Naruto: Ultimate Ninja Storm game. Although the OVA\'s story takes place as early as Naruto\'s episode 19, it also contains a scene set in between two of Naruto: Shippuden\'s arcs: the end of "Fated Battle Between Brothers" and the beginning of "Five Kage Summit," or from episodes 144 to 197 respectively.',
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [],
+      licensors: [],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 19511,
+      url: 'https://myanimelist.net/anime/19511/Naruto__Shippuuden_-_Sunny_Side_Battle',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1047/91638.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1047/91638t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1047/91638l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1047/91638.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1047/91638t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1047/91638l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto: Shippuuden - Sunny Side Battle',
+        },
+        {
+          type: 'Synonym',
+          title: 'Naruto: Shippuuden - Jump Festa 2013 Special',
+        },
+        {
+          type: 'Synonym',
+          title: 'Naruto: Shippuuden - Jump Super Anime Tour 2013 Special',
+        },
+        {
+          type: 'Japanese',
+          title: 'ナルト-NARUTO-疾風伝 サニー・サイド・バトル',
+        },
+        {
+          type: 'English',
+          title: 'Naruto Shippuden: Sunny Side Battle',
+        },
+      ],
+      title: 'Naruto: Shippuuden - Sunny Side Battle',
+      title_english: 'Naruto Shippuden: Sunny Side Battle',
+      title_japanese: 'ナルト-NARUTO-疾風伝 サニー・サイド・バトル',
+      title_synonyms: [
+        'Naruto: Shippuuden - Jump Festa 2013 Special',
+        'Naruto: Shippuuden - Jump Super Anime Tour 2013 Special',
+      ],
+      type: 'Special',
+      source: 'Original',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2013-10-06T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 6,
+            month: 10,
+            year: 2013,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Oct 6, 2013',
+      },
+      duration: '11 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.56,
+      scored_by: 37309,
+      rank: 1489,
+      popularity: 2433,
+      members: 68490,
+      favorites: 165,
+      synopsis:
+        "Back at their childhood home, siblings Itachi and Sasuke Uchiha experience an unusual morning together when Itachi becomes obsessed with cooking the perfect fried egg for Sasuke. Despite being completely focused on the task, he continuously fails to achieve the desired result. As Sasuke marvels at his brother's seemingly unnecessary behavior, he comes to realize that there is more than meets the eye to Itachi's efforts.\n\n[Written by MAL Rewrite]",
+      background:
+        "Naruto: Shippuuden - Sunny Side Battle is a special short anime that aired during Japan's 2013 Jump Super Anime Tour between October 6 and November 24. The feature was also included as a bonus in the Naruto Shippuuden: Ultimate Ninja Storm Revolution game, which was released in September 2014 in Japan, Europe, and North America.",
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [],
+      licensors: [],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 4,
+          type: 'anime',
+          name: 'Comedy',
+          url: 'https://myanimelist.net/anime/genre/4/Comedy',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+        {
+          mal_id: 47,
+          type: 'anime',
+          name: 'Gourmet',
+          url: 'https://myanimelist.net/anime/genre/47/Gourmet',
+        },
+      ],
+      explicit_genres: [],
+      themes: [],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 13667,
+      url: 'https://myanimelist.net/anime/13667/Naruto__Shippuuden_Movie_6_-_Road_to_Ninja',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1620/94336.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1620/94336t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1620/94336l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1620/94336.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1620/94336t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1620/94336l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: 'TDpYU8OmD-k',
+        url: 'https://www.youtube.com/watch?v=TDpYU8OmD-k',
+        embed_url:
+          'https://www.youtube.com/embed/TDpYU8OmD-k?enablejsapi=1&wmode=opaque&autoplay=1',
+        images: {
+          image_url: 'https://img.youtube.com/vi/TDpYU8OmD-k/default.jpg',
+          small_image_url: 'https://img.youtube.com/vi/TDpYU8OmD-k/sddefault.jpg',
+          medium_image_url: 'https://img.youtube.com/vi/TDpYU8OmD-k/mqdefault.jpg',
+          large_image_url: 'https://img.youtube.com/vi/TDpYU8OmD-k/hqdefault.jpg',
+          maximum_image_url: 'https://img.youtube.com/vi/TDpYU8OmD-k/maxresdefault.jpg',
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto: Shippuuden Movie 6 - Road to Ninja',
+        },
+        {
+          type: 'Synonym',
+          title: 'Naruto Movie 9',
+        },
+        {
+          type: 'Japanese',
+          title: 'ROAD TO NINJA NARUTO THE MOVIE',
+        },
+        {
+          type: 'English',
+          title: 'Naruto Shippuden the Movie 6: Road to Ninja',
+        },
+        {
+          type: 'German',
+          title: 'Naruto Film 6: Road to Ninja',
+        },
+        {
+          type: 'French',
+          title: 'Naruto Film 6: Road to Ninja',
+        },
+      ],
+      title: 'Naruto: Shippuuden Movie 6 - Road to Ninja',
+      title_english: 'Naruto Shippuden the Movie 6: Road to Ninja',
+      title_japanese: 'ROAD TO NINJA NARUTO THE MOVIE',
+      title_synonyms: ['Naruto Movie 9'],
+      type: 'Movie',
+      source: 'Manga',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2012-07-28T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 28,
+            month: 7,
+            year: 2012,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Jul 28, 2012',
+      },
+      duration: '1 hr 49 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.68,
+      scored_by: 198582,
+      rank: 1179,
+      popularity: 657,
+      members: 329343,
+      favorites: 566,
+      synopsis:
+        "Returning home to Konohagakure, the young ninja celebrate defeating a group of supposed Akatsuki members. Naruto Uzumaki and Sakura Haruno, however, feel differently. Naruto is jealous of his comrades' congratulatory families, wishing for the presence of his own parents. Sakura, on the other hand, is angry at her embarrassing parents, and wishes for no parents at all. The two clash over their opposing ideals, but are faced with a more pressing matter when the masked Madara Uchiha suddenly appears and transports them to an alternate world.\n\nIn this world, Sakura's parents are considered heroes—for they gave their lives to protect Konohagakure from the Nine-Tailed Fox attack 10 years ago. Consequently, Naruto's parents, Minato Namikaze and Kushina Uzumaki, are alive and well. Unable to return home or find the masked Madara, Naruto and Sakura stay in this new world and enjoy the changes they have always longed for. All seems well for the two ninja, until an unexpected threat emerges that pushes Naruto and Sakura to not only fight for the Konohagakure of the alternate world, but also to find a way back to their own.\n\n[Written by MAL Rewrite]",
+      background: null,
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [
+        {
+          mal_id: 16,
+          type: 'anime',
+          name: 'TV Tokyo',
+          url: 'https://myanimelist.net/anime/producer/16/TV_Tokyo',
+        },
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Aniplex',
+          url: 'https://myanimelist.net/anime/producer/17/Aniplex',
+        },
+        {
+          mal_id: 53,
+          type: 'anime',
+          name: 'Dentsu',
+          url: 'https://myanimelist.net/anime/producer/53/Dentsu',
+        },
+        {
+          mal_id: 245,
+          type: 'anime',
+          name: 'Toho',
+          url: 'https://myanimelist.net/anime/producer/245/Toho',
+        },
+        {
+          mal_id: 1365,
+          type: 'anime',
+          name: 'Shueisha',
+          url: 'https://myanimelist.net/anime/producer/1365/Shueisha',
+        },
+      ],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 62,
+          type: 'anime',
+          name: 'Isekai',
+          url: 'https://myanimelist.net/anime/genre/62/Isekai',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 4134,
+      url: 'https://myanimelist.net/anime/4134/Naruto__Shippuuden_-_Shippuu_Konoha_Gakuen_Den',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/5/51895.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/5/51895t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/5/51895l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/5/51895.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/5/51895t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/5/51895l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto: Shippuuden - Shippuu! "Konoha Gakuen" Den',
+        },
+        {
+          type: 'Synonym',
+          title: 'NARUTO Shippu Konoha Gakuen Den Special',
+        },
+        {
+          type: 'Synonym',
+          title: 'Konoha High',
+        },
+        {
+          type: 'Japanese',
+          title: 'NARUTO 疾風伝「疾風! "木ノ葉学園"伝」',
+        },
+        {
+          type: 'English',
+          title: 'Naruto Shippuden: Konoha Gakuen - Special',
+        },
+      ],
+      title: 'Naruto: Shippuuden - Shippuu! "Konoha Gakuen" Den',
+      title_english: 'Naruto Shippuden: Konoha Gakuen - Special',
+      title_japanese: 'NARUTO 疾風伝「疾風! "木ノ葉学園"伝」',
+      title_synonyms: ['NARUTO Shippu Konoha Gakuen Den Special', 'Konoha High'],
+      type: 'Special',
+      source: 'Manga',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2008-02-06T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 6,
+            month: 2,
+            year: 2008,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Feb 6, 2008',
+      },
+      duration: '8 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.14,
+      scored_by: 31417,
+      rank: 3315,
+      popularity: 2540,
+      members: 63647,
+      favorites: 187,
+      synopsis:
+        'Naruto school special.\n\nNaruto is a new cool student and when he meets Sasuke they start fighting.',
+      background: null,
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [
+        {
+          mal_id: 230,
+          type: 'anime',
+          name: 'Bandai',
+          url: 'https://myanimelist.net/anime/producer/230/Bandai',
+        },
+      ],
+      licensors: [],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+        {
+          mal_id: 23,
+          type: 'anime',
+          name: 'School',
+          url: 'https://myanimelist.net/anime/genre/23/School',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 54687,
+      url: 'https://myanimelist.net/anime/54687/Boruto__Naruto_Next_Generations_Part_2',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1604/134068.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1604/134068t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1604/134068l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1604/134068.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1604/134068t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1604/134068l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Boruto: Naruto Next Generations Part 2',
+        },
+        {
+          type: 'Japanese',
+          title: 'BORUTO -NARUTO NEXT GENERATIONS- (第二部)',
+        },
+      ],
+      title: 'Boruto: Naruto Next Generations Part 2',
+      title_english: null,
+      title_japanese: 'BORUTO -NARUTO NEXT GENERATIONS- (第二部)',
+      title_synonyms: [],
+      type: 'TV',
+      source: 'Manga',
+      episodes: null,
+      status: 'Not yet aired',
+      airing: false,
+      aired: {
+        from: null,
+        to: null,
+        prop: {
+          from: {
+            day: null,
+            month: null,
+            year: null,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Not available',
+      },
+      duration: 'Unknown',
+      rating: 'PG-13 - Teens 13 or older',
+      score: null,
+      scored_by: null,
+      rank: null,
+      popularity: 5076,
+      members: 15102,
+      favorites: 132,
+      synopsis: null,
+      background: null,
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: 'Unknown',
+      },
+      producers: [],
+      licensors: [],
+      studios: [],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 17,
+          type: 'anime',
+          name: 'Martial Arts',
+          url: 'https://myanimelist.net/anime/genre/17/Martial_Arts',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 8246,
+      url: 'https://myanimelist.net/anime/8246/Naruto__Shippuuden_Movie_4_-_The_Lost_Tower',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1479/116734.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1479/116734t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1479/116734l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/1479/116734.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/1479/116734t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/1479/116734l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: 'q4C4CZT8NTM',
+        url: 'https://www.youtube.com/watch?v=q4C4CZT8NTM',
+        embed_url:
+          'https://www.youtube.com/embed/q4C4CZT8NTM?enablejsapi=1&wmode=opaque&autoplay=1',
+        images: {
+          image_url: 'https://img.youtube.com/vi/q4C4CZT8NTM/default.jpg',
+          small_image_url: 'https://img.youtube.com/vi/q4C4CZT8NTM/sddefault.jpg',
+          medium_image_url: 'https://img.youtube.com/vi/q4C4CZT8NTM/mqdefault.jpg',
+          large_image_url: 'https://img.youtube.com/vi/q4C4CZT8NTM/hqdefault.jpg',
+          maximum_image_url: 'https://img.youtube.com/vi/q4C4CZT8NTM/maxresdefault.jpg',
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Naruto: Shippuuden Movie 4 - The Lost Tower',
+        },
+        {
+          type: 'Synonym',
+          title: 'Naruto Movie 7',
+        },
+        {
+          type: 'Synonym',
+          title: 'Gekijouban Naruto Shippuuden: The Lost Tower',
+        },
+        {
+          type: 'Japanese',
+          title: '劇場版 NARUTO-ナルト-疾風伝 ザ・ロストタワー',
+        },
+        {
+          type: 'English',
+          title: 'Naruto Shippuden the Movie 4: The Lost Tower',
+        },
+        {
+          type: 'German',
+          title: 'Naruto Shippuden Film 4: The Lost Tower',
+        },
+        {
+          type: 'French',
+          title: 'Naruto Shippuden Film 4: The Lost Tower',
+        },
+      ],
+      title: 'Naruto: Shippuuden Movie 4 - The Lost Tower',
+      title_english: 'Naruto Shippuden the Movie 4: The Lost Tower',
+      title_japanese: '劇場版 NARUTO-ナルト-疾風伝 ザ・ロストタワー',
+      title_synonyms: ['Naruto Movie 7', 'Gekijouban Naruto Shippuuden: The Lost Tower'],
+      type: 'Movie',
+      source: 'Manga',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2010-07-31T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 31,
+            month: 7,
+            year: 2010,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Jul 31, 2010',
+      },
+      duration: '1 hr 25 min',
+      rating: 'PG-13 - Teens 13 or older',
+      score: 7.42,
+      scored_by: 140807,
+      rank: 2001,
+      popularity: 912,
+      members: 243096,
+      favorites: 216,
+      synopsis:
+        "Led by Yamato, Naruto Uzumaki, Sakura Haruno, and Sai are assigned to capture Mukade, a rogue ninja who is pursuing the ancient chakra Ryuumyaku located underneath the Rouran ruins. While the Ryuumyaku has been sealed by the Fourth Hokage, the group fails to prevent Mukade from releasing its power. Consequently, a strong energy burst engulfs both Naruto and Yamato before they can escape.\n\nAs he awakens in a magnificent yet hostile kingdom, Naruto meets its young queen Saara and three Konohagakure ninjas on a top-secret mission. They reveal to him that he has time-traveled to Rouran 20 years into the past! To make matters worse, Mukade has already infiltrated the royal court, becoming the naive queen's most trusted minister under the alias Anrokuzan.\n\nJoining forces with the three ninjas, Naruto must protect Saara's life without fail to stop the villain's plans and return to the present.\n\n[Written by MAL Rewrite]",
+      background:
+        'Naruto: Shippuuden Movie 4 - The Lost Tower is set approximately in between episodes 152-156 of the Naruto: Shippuuden anime series at the beginning of the "Pain\'s Assault" arc. Along with the film, an exclusive animated short feature named Naruto Soyokazeden Movie: Naruto to Mashin to Mitsu no Onegai Dattebayo!! was shown as well. To celebrate the movie\'s release on July 31, 2010, a one-hour episode titled "Naruto Shippuuden Big Adventure! The Quest for the Fourth Hokage\'s Legacy" was broadcasted on July 29, 2010. The DVD version was issued on April 27, 2011. The film was released in North America on September 17, 2013 by Viz Media. According to a Pia Corporation survey, Naruto: Shippuuden Movie 4 - The Lost Tower had been well received not only by children but also by women in their teens and 20s. The movie has an animanga adaptation as well, released exclusively in Japan on August 4, 2011.',
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [
+        {
+          mal_id: 245,
+          type: 'anime',
+          name: 'Toho',
+          url: 'https://myanimelist.net/anime/producer/245/Toho',
+        },
+      ],
+      licensors: [
+        {
+          mal_id: 119,
+          type: 'anime',
+          name: 'VIZ Media',
+          url: 'https://myanimelist.net/anime/producer/119/VIZ_Media',
+        },
+      ],
+      studios: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Pierrot',
+          url: 'https://myanimelist.net/anime/producer/1/Pierrot',
+        },
+      ],
+      genres: [
+        {
+          mal_id: 1,
+          type: 'anime',
+          name: 'Action',
+          url: 'https://myanimelist.net/anime/genre/1/Action',
+        },
+        {
+          mal_id: 2,
+          type: 'anime',
+          name: 'Adventure',
+          url: 'https://myanimelist.net/anime/genre/2/Adventure',
+        },
+        {
+          mal_id: 10,
+          type: 'anime',
+          name: 'Fantasy',
+          url: 'https://myanimelist.net/anime/genre/10/Fantasy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [
+        {
+          mal_id: 78,
+          type: 'anime',
+          name: 'Time Travel',
+          url: 'https://myanimelist.net/anime/genre/78/Time_Travel',
+        },
+      ],
+      demographics: [
+        {
+          mal_id: 27,
+          type: 'anime',
+          name: 'Shounen',
+          url: 'https://myanimelist.net/anime/genre/27/Shounen',
+        },
+      ],
+    },
+    {
+      mal_id: 36564,
+      url: 'https://myanimelist.net/anime/36564/Kamiusagi_Rope_x_Boruto__Naruto_Next_Generations',
+      images: {
+        jpg: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/3/88377.jpg',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/3/88377t.jpg',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/3/88377l.jpg',
+        },
+        webp: {
+          image_url: 'https://cdn.myanimelist.net/images/anime/3/88377.webp',
+          small_image_url: 'https://cdn.myanimelist.net/images/anime/3/88377t.webp',
+          large_image_url: 'https://cdn.myanimelist.net/images/anime/3/88377l.webp',
+        },
+      },
+      trailer: {
+        youtube_id: null,
+        url: null,
+        embed_url: null,
+        images: {
+          image_url: null,
+          small_image_url: null,
+          medium_image_url: null,
+          large_image_url: null,
+          maximum_image_url: null,
+        },
+      },
+      approved: true,
+      titles: [
+        {
+          type: 'Default',
+          title: 'Kamiusagi Rope x Boruto: Naruto Next Generations',
+        },
+        {
+          type: 'Synonym',
+          title: 'TOHO Cinemas Ueno',
+        },
+        {
+          type: 'Japanese',
+          title: '「紙兎ロぺ」×「BORUTO-ボルト- NARUTO NEXT　GENERATIONS」',
+        },
+      ],
+      title: 'Kamiusagi Rope x Boruto: Naruto Next Generations',
+      title_english: null,
+      title_japanese: '「紙兎ロぺ」×「BORUTO-ボルト- NARUTO NEXT　GENERATIONS」',
+      title_synonyms: ['TOHO Cinemas Ueno'],
+      type: 'ONA',
+      source: 'Other',
+      episodes: 1,
+      status: 'Finished Airing',
+      airing: false,
+      aired: {
+        from: '2017-10-12T00:00:00+00:00',
+        to: null,
+        prop: {
+          from: {
+            day: 12,
+            month: 10,
+            year: 2017,
+          },
+          to: {
+            day: null,
+            month: null,
+            year: null,
+          },
+        },
+        string: 'Oct 12, 2017',
+      },
+      duration: '1 min',
+      rating: 'G - All Ages',
+      score: 5.48,
+      scored_by: 2300,
+      rank: 10780,
+      popularity: 6631,
+      members: 7883,
+      favorites: 27,
+      synopsis:
+        'A 3-way collaboration between Kamiusagi Rope, Boruto: Naruto Next Generations, and TOHO Cinemas. The purpose is to promote a new TOHO theater opening up in Ueno on November 4, 2017. The collaboration video will also be available to view in TOHO Cinemas in Tokyo, Kanagawa, Chiba, and Saitama from Ocotober 21 - December 1.',
+      background: null,
+      season: null,
+      year: null,
+      broadcast: {
+        day: null,
+        time: null,
+        timezone: null,
+        string: null,
+      },
+      producers: [
+        {
+          mal_id: 245,
+          type: 'anime',
+          name: 'Toho',
+          url: 'https://myanimelist.net/anime/producer/245/Toho',
+        },
+      ],
+      licensors: [],
+      studios: [],
+      genres: [
+        {
+          mal_id: 4,
+          type: 'anime',
+          name: 'Comedy',
+          url: 'https://myanimelist.net/anime/genre/4/Comedy',
+        },
+      ],
+      explicit_genres: [],
+      themes: [],
+      demographics: [],
+    },
+  ],
+};

@@ -1,4 +1,4 @@
-import { useState, FormEvent, ChangeEvent, useEffect } from 'react';
+import { useState, FormEvent } from 'react';
 
 import { getAnimeList } from './api';
 import { selectBars } from './texts';
@@ -10,10 +10,12 @@ import {
   formStyle,
   selectBarStyle,
 } from './SearchBlock.styles';
-import Input from '../../Input';
-import SelectMenu from '../../SelectMenu/selectMenu';
-import { Option } from '../../SelectMenu/types';
+import Input from '../../common/Input';
+import SelectMenu from '../../common/SelectMenu/selectMenu';
+import { Option } from '../../common/SelectMenu/types';
 import AnimeCards from '../AnimeCards';
+
+import { animeData } from '../../../mocks/anime';
 
 const SearchBlock: React.FC = () => {
   const [searchProps, setSearchProps] = useState({
@@ -24,16 +26,17 @@ const SearchBlock: React.FC = () => {
     order_by: '',
   });
 
-  const [apiResponse, setApiResponse] = useState(null);
+  // DEV only
+  // @ts-ignore
+  const [apiResponse, setApiResponse] = useState(animeData);
 
   const handleSearch = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    const res = await getAnimeList(searchProps);
-    setApiResponse(res);
+    // DEV uncomment after dev
+    // const res = await getAnimeList(searchProps);
+    // setApiResponse(res);
   };
-
-  console.log(apiResponse);
 
   const handleChange = (value: string, field: string) => {
     setSearchProps({ ...searchProps, [field]: value });

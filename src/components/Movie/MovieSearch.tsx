@@ -9,11 +9,13 @@ import {
   TextGenresStyled,
   TextSearchStyled,
 } from './Moive.styles';
-import Input from '../Input';
+import Input from '../common/Input';
 import Movies from './Movies';
 import { genresOptions } from './constant';
 import { MovieDataShort } from './types';
-import SelectSomeMenu from '../SelectMenu/SelectSomeMenu';
+import SelectSomeMenu from '../common/SelectMenu/SelectSomeMenu';
+
+import { filmsData } from '../../mocks/films';
 
 const MaxMoviesSize: number = 9;
 
@@ -36,27 +38,27 @@ const options = {
 
 const MovieSearch: React.FC = () => {
   const [_inputValue, setInputValue]: [string, React.Dispatch<string>] = useState<string>('');
-  const [movies, setMovies] = useState<MovieDataShort[]>([]);
+  // ! DEV only
+  const [movies, setMovies] = useState<MovieDataShort[]>(filmsData);
   const [genres, setGenres] = useState<string[]>(['all']);
 
   const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    try {
-      const response = await axios.request(options);
-      console.log('Search titleS API:');
-      console.log(response.data);
-      const movieResults: MovieDataShort[] = response.data.results.map((movie: any) => ({
-        key: movie.id,
-        id: movie.id.substring(7, movie.id.length - 1),
-        title: movie.title,
-        type: movie.titleType,
-        year: movie.year,
-        image_url: movie.image ? movie.image.url : 'no image',
-      }));
-      setMovies(movieResults);
-    } catch (error) {
-      console.error('My error: ' + error);
-    }
+    // ! DEV only, uncomment after completing
+    // try {
+    //   const response = await axios.request(options);
+    //   const movieResults: MovieDataShort[] = response.data.results.map((movie: any) => ({
+    //     key: movie.id,
+    //     id: movie.id.substring(7, movie.id.length - 1),
+    //     title: movie.title,
+    //     type: movie.titleType,
+    //     year: movie.year,
+    //     image_url: movie.image ? movie.image.url : 'no image',
+    //   }));
+    //   setMovies(movieResults);
+    // } catch (error) {
+    //   console.error('My error: ' + error);
+    // }
   };
 
   const handleInputChange = (event: string): void => {
